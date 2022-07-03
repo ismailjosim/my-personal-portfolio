@@ -7,3 +7,17 @@
 body {
     font-family: "Poppins", sans-serif;
 }
+
+.header {
+    background: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
