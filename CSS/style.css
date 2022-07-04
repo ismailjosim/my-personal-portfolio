@@ -108,12 +108,11 @@ a {
     background-image: url(/images/exp-bg.png);
     background-position: left 10%;
     background-repeat: no-repeat;
-    ba
+    margin: 5rem 0;
 }
 
 .portfolio_section .container {
     display: block;
-    margin-bottom: 5rem;
 }
 
 .row {
@@ -162,7 +161,7 @@ a {
 
 /* footer section */
 .footer_section {
-    padding: 1rem;
+    padding: 2rem 0;
     text-align: center;
 }
 
