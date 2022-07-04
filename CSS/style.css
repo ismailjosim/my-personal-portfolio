@@ -24,7 +24,8 @@ a {
     display: flex;
 }
 
-.content_box {
+.content_box,
+.img_box {
     width: 50%;
 }
 
@@ -50,10 +51,6 @@ a {
     padding: 2.5rem 0;
 }
 
-.img_box {
-    width: 50%;
-}
-
 .img_box img {
     width: 100%;
 }
@@ -77,8 +74,22 @@ a {
 }
 
 /* about section */
+
+.about_me .content_box {
+    padding-left: 5rem;
+}
+
+.about_me .body_text {
+    width: 90%;
+    line-height: 2;
+    font-weight: 500;
+}
+
 .about_me {
     margin: 5rem 0;
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .primary_heading {
